@@ -36,12 +36,15 @@ $(document).ready(function () {
 
     function checkGenera(genere) {
         if (genere == "") {
+            $('.card-container').addClass('card-allineamento');
             $('.card').show();
         } else {
             $('.card').each(function() {
                 if (genere.toLowerCase() == $(this).data('genere').toLowerCase()) {
+                    $('.card-container').removeClass('card-allineamento');
                     $(this).show();
                 } else {
+                    $('.card-container').removeClass('card-allineamento');
                     $(this).hide();
                 }
             });

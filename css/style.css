@@ -35,6 +35,9 @@ header img {
 
 .card-container {
     padding-top: 100px;
+}
+
+.card-allineamento {
     justify-content: space-evenly;
 }
 
