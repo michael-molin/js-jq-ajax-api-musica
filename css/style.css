@@ -35,6 +35,7 @@ header img {
 
 .card-container {
     padding-top: 100px;
+    justify-content: space-evenly;
 }
 
 .select-genere {
